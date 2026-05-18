@@ -12,29 +12,162 @@
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
         .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
         @media(min-width: 600px) { .grid { grid-template-columns: repeat(4, 1fr); } }
-        .ai-card { background: #111827; border-radius: 8px; overflow: hidden; border: 1px solid #1f2937; padding-bottom: 10px; }
+        .ai-card { background: #111827; border-radius: 8px; overflow: hidden; border: 1px solid #1f2937; padding-bottom: 10px; margin-bottom: 10px; }
         .image-box { position: relative; width: 100%; padding-top: 100%; background: #000; }
         .image-box img { position: absolute; top:0; left:0; width:100%; height:100%; object-fit: cover; }
         .category-badge { position: absolute; top: 8px; right: 8px; background: #2563eb; color: white; padding: 3px 8px; font-size: 9px; font-weight: bold; border-radius: 4px; }
         .ai-info { padding: 12px 10px; text-align: center; }
-        .ai-title { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #38bdf8; }
-        .prompt-box { width: 90%; height: 50px; background: #1f2937; color: #e5e7eb; border: 1px solid #374151; border-radius: 4px; padding: 5px; font-size: 11px; font-family: monospace; resize: none; cursor: pointer; text-align: left; }
+        .ai-title { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #38bdf8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .prompt-box { width: 90%; height: 65px; background: #1f2937; color: #e5e7eb; border: 1px solid #374151; border-radius: 4px; padding: 5px; font-size: 11px; font-family: monospace; resize: none; cursor: pointer; text-align: left; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>AI STUDIO 21 - PRIVATE PANEL</h1>
-        <p>📋 Klik pada kotak text di bawah gambar untuk menyalin prompt secara instan.</p>
+        <p>📋 Engine: Auto-Combination 6 AM | Update otomatis setiap pukul 06.00 Pagi.</p>
     </div>
     <div class="container"><div class="grid">
     <div class="ai-card">
         <div class="image-box">
             <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
-            <span class="category-badge">ABSTRACT</span>
+            <span class="category-badge">ABSTRACT FLUID</span>
         </div>
         <div class="ai-info">
-            <div class="ai-title">Abstract Liquid Gold</div>
-            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract liquid gold wave, fluid motion, premium background, high quality, 8k resolution</textarea>
+            <div class="ai-title">Amethyst Crystal Fluid</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract amethyst crystal fluid, highly contrast, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
+            <span class="category-badge">ABSTRACT FLUID</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Translucent Glass Ocean</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract translucent glass ocean, dreamy ethereal mood, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
+            <span class="category-badge">ABSTRACT FLUID</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Holographic Fluid Ripples</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract holographic fluid ripples, bold digital art style, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
+            <span class="category-badge">ABSTRACT FLUID</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Minimalist Monochrome Smoke</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract minimalist monochrome smoke, cozy elegant background, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
+            <span class="category-badge">ABSTRACT FLUID</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Iridescent Pearl Wave</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract iridescent pearl wave, smooth color blending, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=400" alt="Abstract">
+            <span class="category-badge">ABSTRACT FLUID</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Sunset Gradient Flow</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">abstract sunset gradient flow, futuristic synthwave vibe, highly detailed, 8k resolution, commercial microstock trend, professional studio lighting</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Cozy Gaming Room Setup</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric cozy gaming room setup with holographic screens and robotic arms, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Futuristic Cyberpunk Street Alley</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric futuristic cyberpunk street alley with giant smartphone and floating boxes, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Minimalist Virtual Art Gallery</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric minimalist virtual art gallery with detailed miniature foliage and glass walls, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Modern Plants Greenhouse</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric modern plants greenhouse with isometric grid layout and 3d render, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Smart Tech Workspace Office</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric smart tech workspace office with rainy glossy floor reflections, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
+        </div>
+    </div>
+    
+    <div class="ai-card">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=400" alt="Isometric">
+            <span class="category-badge">3D ISOMETRIC</span>
+        </div>
+        <div class="ai-info">
+            <div class="ai-title">Crypto Mining Farm</div>
+            <textarea class="prompt-box" readonly onclick="this.select(); document.execCommand('copy'); alert('Prompt berhasil disalin!');">cute 3d isometric crypto mining farm with bright cinematic studio lighting, unreal engine 5 render, vibrant flat colors, low poly model, microstock seller trend, smooth shading</textarea>
+            <p style="font-size:10px; color:#6b7280; margin:5px 0 0 0;">💡 Klik teks untuk menyalin otomatis</p>
         </div>
     </div>
     </div></div>
